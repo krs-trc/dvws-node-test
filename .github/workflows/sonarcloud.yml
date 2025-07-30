@@ -30,7 +30,7 @@ jobs:
         uses: SonarSource/sonarcloud-github-action@v2
         with:
           args: >
-            -Dsonar.projectKey=krs-trc
+            -Dsonar.projectKey=krs-trc_dvws-node
             -Dsonar.organization=krs-trc
             -Dsonar.host.url=https://sonarcloud.io
         env:
